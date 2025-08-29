@@ -1,0 +1,54 @@
+.links.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.links.contact li {
+  display: inline-block;
+}
+
+.links.contact a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #d0b8b8;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.links.contact a:hover {
+  transform: translateY(-3px);
+}
+
+.links.contact a[href*="linkedin"]:hover {
+  background-color: #4ea3d0;
+  color: #fff;
+}
+
+.links.contact a[href*="facebook"]:hover {
+  background-color: #1074f7;
+  color: #fff;
+}
+
+.links.contact a[href*="github"]:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.links.contact a[href*="mailto"]:hover {
+  background-color: #d1291d;
+  color: #fff;
+}
+
+.links.contact a[href*="wa"]:hover {
+  background-color: #097c39;
+  color: #fff;
+}

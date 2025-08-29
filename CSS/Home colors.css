@@ -1,0 +1,107 @@
+/* Home Section Layout */
+#home {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;    /* Stack content vertically */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;                 /* Space between text & photo */
+  padding: 0 10%;
+  background: linear-gradient(135deg, #0a192f, #0d47a1);
+  color: #e0e0e0;
+}
+
+/* Title (MY PORTFOLIO) */
+#home .Welcome {
+  font-size: 60px; /* Bigger and centered */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #42a5f5;
+  text-shadow: 0 0 15px rgba(66, 165, 245, 0.9);
+}
+
+/* Subtitle (Made by...) */
+#home .made-by {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00e676;
+  text-shadow: 0 0 5px #00e676, 0 0 10px #1b5e20;
+  margin-bottom: 20px;
+}
+
+/* Introduction text */
+#home .introduction {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 600px;
+  color: #e0e0e0;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.home-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.home-buttons a {
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #42a5f5;
+  color: #42a5f5;
+  transition: all 0.3s ease;
+}
+
+.home-buttons a:hover {
+  background: #42a5f5;
+  color: #0a192f;
+  box-shadow: 0 0 20px rgba(66, 165, 245, 0.8);
+}
+
+/* Profile Image with glow */
+.my_photo_profile {
+  display: flex;
+  justify-content: center;
+}
+
+.my_photo_profile img {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  box-shadow: 0 0 30px rgba(66, 165, 245, 0.7), 
+              0 0 60px rgba(0, 230, 118, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.my_photo_profile img:hover {
+  transform: scale(1.05);
+}
+
+/* Social Icons */
+.small-icons-contact ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.small-icons-contact a {
+  font-size: 28px;
+  color: #64b5f6;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.small-icons-contact a:hover {
+  color: #00e676;
+  transform: scale(1.2);
+}
